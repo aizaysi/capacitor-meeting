@@ -85,10 +85,6 @@ This Ionic Capacitor plugin is created to make video calls through the free, ope
 
 Follow the [official Capacitor doc to upgrade to Capacitor 5](https://capacitorjs.com/docs/updating/5-0).
 
-## iOS Compatible Versions
-
-See the plugin [changelog](https://github.com/calvinckho/capacitor-jitsi-meet/blob/master/CHANGELOG.md) for plugin versions that are compatible to your local Xcode version.
-
 ## Embedding in web applications
 
 This plugin does not currently support web implementation. We recommend using the Jitsi iFrame API (https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-iframe) for full web implementation.
@@ -105,7 +101,7 @@ Install from Github. Make sure you insert the branch name at the end:
 ```
 npm i git+ssh://git@github.com:calvinckho/capacitor-jitsi-meet#[branch name]
 ```
-2. use it as a [Capacitor Plugin](https://capacitorjs.com/docs/getting-started#adding-capacitor-to-your-app). See below for Capacitor 3+ usage. For older versions of Capacitor, see [here](https://github.com/calvinckho/capacitor-jitsi-meet/blob/7321356fcae47228d250aec1e9acba3796835769/README.md).
+2. use it as a [Capacitor Plugin](https://capacitorjs.com/docs/getting-started#adding-capacitor-to-your-app). See below for Capacitor 3+ usage. 
 ```javascript
 
 import { Jitsi } from 'capacitor-jitsi-meet';
@@ -165,10 +161,6 @@ $ npm run build
 ## Official Jitsi-Meet SDK Documentation
 
 This plugin uses the Jitsi Meet SDK. See the [Jitsi Meet SDK documentation](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-ios-sdk), and the lists of [feature flags](https://jitsi.github.io/handbook/docs/dev-guide/mobile-feature-flags) and [config overrides](https://github.com/jitsi/jitsi-meet/blob/master/config.js).
-
-## Sample React App for Android
-
-You can see a [React Demo App](https://github.com/calvinckho/react-capacitor-jitsi-meet-sample) which runs the Jitsi meeting on the Android device
 
 ## Feature Requests, Jitsi SDK UI Customizations, Picture-In-Picture Mode Implementation
 
